@@ -63,6 +63,11 @@ nav>p {
 }
 
 /* MAIN */
+main ul,
+ol {
+    margin-left: 2em;
+}
+
 iframe {
     width: 360px;
     height: 200px;
@@ -70,6 +75,10 @@ iframe {
 
     overflow: hidden;
 
+}
+
+li {
+    padding: 10px;
 }
 
 main {
