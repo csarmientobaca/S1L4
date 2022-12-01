@@ -16,6 +16,10 @@ body {
 }
 
 /* HEADER */
+header>p {
+    font-weight: bolder;
+}
+
 header>img {
     height: 10%;
     width: 50%;
@@ -35,7 +39,7 @@ h1 {
 
 header {
     height: 250px;
-    width: 370px;
+    width: 90%;
     background-image: linear-gradient(to bottom, #026d87, #006c90, #006b98, #006aa0, #1467a6);
     text-align: center;
 }
@@ -94,14 +98,18 @@ main {
 
 /* FOOTER */
 footer {
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 120px;
     color: white;
     text-align: center;
     background: rgb(2, 0, 36);
     background: linear-gradient(57deg, rgba(2, 0, 36, 1) 0%, rgba(11, 84, 80, 1) 92%);
 }
 
-footer a:link {
+footer>p:first-child {
+    padding: 15px;
+}
+
+footer>p footer a:link {
     color: pink;
 }
